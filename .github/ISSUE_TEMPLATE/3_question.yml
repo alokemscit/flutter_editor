@@ -1,12 +1,12 @@
 name: Ask a question
 description: |
   If you have any questions, feel free to ask
-labels: 'question'
+labels: 'help wanted'
 body:
   - type: markdown
     attributes:
       value: |
-        If you have any suggestions or questions, feel free to share them in the [Discussions](https://github.com/singerdmx/flutter-quill/discussions) section.
+        Thank you for using Flutter Quill!
 
   - type: checkboxes
     attributes:

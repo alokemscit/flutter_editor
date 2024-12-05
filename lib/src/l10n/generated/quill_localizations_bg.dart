@@ -1,10 +1,8 @@
 import 'quill_localizations.dart';
 
-// ignore_for_file: type=lint
-
 /// The translations for Bulgarian (`bg`).
 class FlutterQuillLocalizationsBg extends FlutterQuillLocalizations {
-  FlutterQuillLocalizationsBg([String locale = 'bg']) : super(locale);
+  FlutterQuillLocalizationsBg([super.locale = 'bg']);
 
   @override
   String get pasteLink => 'Поставете връзка';
@@ -130,9 +128,6 @@ class FlutterQuillLocalizationsBg extends FlutterQuillLocalizations {
   String get alignRight => 'Подравни вдясно';
 
   @override
-  String get alignJustify => 'Подравни текста';
-
-  @override
   String get justifyWinWidth => 'Подравни във всяка колонка';
 
   @override
@@ -142,25 +137,25 @@ class FlutterQuillLocalizationsBg extends FlutterQuillLocalizations {
   String get headerStyle => 'Стил на заглавието';
 
   @override
-  String get normal => 'Нормален';
+  String get normal => 'Normal';
 
   @override
-  String get heading1 => 'Заглавие 1';
+  String get heading1 => 'Heading 1';
 
   @override
-  String get heading2 => 'Заглавие 2';
+  String get heading2 => 'Heading 2';
 
   @override
-  String get heading3 => 'Заглавие 3';
+  String get heading3 => 'Heading 3';
 
   @override
-  String get heading4 => 'Заглавие 4';
+  String get heading4 => 'Heading 4';
 
   @override
-  String get heading5 => 'Заглавие 5';
+  String get heading5 => 'Heading 5';
 
   @override
-  String get heading6 => 'Заглавие 6';
+  String get heading6 => 'Heading 6';
 
   @override
   String get numberedList => 'Номериран списък';
@@ -211,9 +206,6 @@ class FlutterQuillLocalizationsBg extends FlutterQuillLocalizations {
   String get color => 'Цвят';
 
   @override
-  String get lineheight => 'височина на линията';
-
-  @override
   String get findText => 'Намери текст';
 
   @override
@@ -230,17 +222,17 @@ class FlutterQuillLocalizationsBg extends FlutterQuillLocalizations {
 
   @override
   String theImageHasBeenSavedAt(String imagePath) {
-    return 'Снимката е запазена в: $imagePath';
+    return 'The image has been saved at: $imagePath';
   }
 
   @override
   String get errorWhileSavingImage => 'Error while saving image';
 
   @override
-  String get pleaseEnterTextForYourLink => 'Например, \'Научете повече\'';
+  String get pleaseEnterTextForYourLink => "Например, 'Научете повече'";
 
   @override
-  String get pleaseEnterTheLinkURL => 'Например, \'https://example.com\'';
+  String get pleaseEnterTheLinkURL => "Например, 'https://example.com'";
 
   @override
   String get pleaseEnterAValidImageURL =>
@@ -261,47 +253,23 @@ class FlutterQuillLocalizationsBg extends FlutterQuillLocalizations {
       'Чувствителност на кутията и търсене на цялата дума';
 
   @override
-  String get caseSensitive => 'Чувствителност на регистъра';
-
-  @override
-  String get wholeWord => 'Цяла дума';
-
-  @override
   String get insertImage => 'Вмъкване на изображение';
 
   @override
-  String get pickAPhotoFromYourGallery => 'Изберете снимка от галерията';
+  String get pickAPhotoFromYourGallery => 'Pick a photo from your gallery';
 
   @override
-  String get takeAPhotoUsingYourCamera => 'Снимайте с камерата';
+  String get takeAPhotoUsingYourCamera => 'Take a photo using your camera';
 
   @override
-  String get pasteAPhotoUsingALink => 'Поставете снимка чрез линк';
+  String get pasteAPhotoUsingALink => 'Paste a photo using a link';
 
   @override
-  String get pickAVideoFromYourGallery => 'Изберете видео от галерията';
+  String get pickAVideoFromYourGallery => 'Pick a video from your gallery';
 
   @override
-  String get recordAVideoUsingYourCamera => 'Запишете видео с камерата';
+  String get recordAVideoUsingYourCamera => 'Record a video using your camera';
 
   @override
-  String get pasteAVideoUsingALink => 'Поставете видео чрез линк';
-
-  @override
-  String get close => 'Затвори';
-
-  @override
-  String get searchSettings => 'Настройки за търсене';
-
-  @override
-  String get cut => 'Изрежи';
-
-  @override
-  String get paste => 'Постави';
-
-  @override
-  String get insertTable => 'Вмъкни таблица';
-
-  @override
-  String get insertVideo => 'Insert video';
+  String get pasteAVideoUsingALink => 'Paste a video using a link';
 }

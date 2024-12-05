@@ -1,10 +1,8 @@
 import 'quill_localizations.dart';
 
-// ignore_for_file: type=lint
-
 /// The translations for German (`de`).
 class FlutterQuillLocalizationsDe extends FlutterQuillLocalizations {
-  FlutterQuillLocalizationsDe([String locale = 'de']) : super(locale);
+  FlutterQuillLocalizationsDe([super.locale = 'de']);
 
   @override
   String get pasteLink => 'Link hinzufügen';
@@ -130,9 +128,6 @@ class FlutterQuillLocalizationsDe extends FlutterQuillLocalizations {
   String get alignRight => 'Rechtsbündig ausrichten';
 
   @override
-  String get alignJustify => 'Blocksatz';
-
-  @override
   String get justifyWinWidth => 'Blocksatz';
 
   @override
@@ -145,22 +140,22 @@ class FlutterQuillLocalizationsDe extends FlutterQuillLocalizations {
   String get normal => 'Normal';
 
   @override
-  String get heading1 => 'Überschrift 1';
+  String get heading1 => 'Heading 1';
 
   @override
-  String get heading2 => 'Überschrift 2';
+  String get heading2 => 'Heading 2';
 
   @override
-  String get heading3 => 'Überschrift 3';
+  String get heading3 => 'Heading 3';
 
   @override
-  String get heading4 => 'Überschrift 4';
+  String get heading4 => 'Heading 4';
 
   @override
-  String get heading5 => 'Überschrift 5';
+  String get heading5 => 'Heading 5';
 
   @override
-  String get heading6 => 'Überschrift 6';
+  String get heading6 => 'Heading 6';
 
   @override
   String get numberedList => 'Nummerierte Liste';
@@ -211,9 +206,6 @@ class FlutterQuillLocalizationsDe extends FlutterQuillLocalizations {
   String get color => 'Farbe';
 
   @override
-  String get lineheight => 'Zeilenhöhe';
-
-  @override
   String get findText => 'Text suchen';
 
   @override
@@ -230,17 +222,17 @@ class FlutterQuillLocalizationsDe extends FlutterQuillLocalizations {
 
   @override
   String theImageHasBeenSavedAt(String imagePath) {
-    return 'Das Bild wurde gespeichert unter: $imagePath';
+    return 'The image has been saved at: $imagePath';
   }
 
   @override
   String get errorWhileSavingImage => 'Fehler beim Speichern des Bildes';
 
   @override
-  String get pleaseEnterTextForYourLink => 'z.B. \'Mehr erfahren\'';
+  String get pleaseEnterTextForYourLink => "z.B. 'Mehr erfahren'";
 
   @override
-  String get pleaseEnterTheLinkURL => 'z.B. \'https://example.com\'';
+  String get pleaseEnterTheLinkURL => "z.B. 'https://example.com'";
 
   @override
   String get pleaseEnterAValidImageURL =>
@@ -259,12 +251,6 @@ class FlutterQuillLocalizationsDe extends FlutterQuillLocalizations {
   @override
   String get caseSensitivityAndWholeWordSearch =>
       'Groß- und Kleinschreibung sowie Ganzwortsuche';
-
-  @override
-  String get caseSensitive => 'Groß- und Kleinschreibung beachten';
-
-  @override
-  String get wholeWord => 'Ganzes Wort';
 
   @override
   String get insertImage => 'Bild einfügen';
@@ -289,23 +275,5 @@ class FlutterQuillLocalizationsDe extends FlutterQuillLocalizations {
       'Nehmen Sie ein Video mit Ihrer Kamera auf';
 
   @override
-  String get pasteAVideoUsingALink => 'Video über einen Link einfügen';
-
-  @override
-  String get close => 'Schließen';
-
-  @override
-  String get searchSettings => 'Such-Einstellungen';
-
-  @override
-  String get cut => 'Ausschneiden';
-
-  @override
-  String get paste => 'Einfügen';
-
-  @override
-  String get insertTable => 'Tabelle einfügen';
-
-  @override
-  String get insertVideo => 'Insert video';
+  String get pasteAVideoUsingALink => 'Paste a video using a link';
 }

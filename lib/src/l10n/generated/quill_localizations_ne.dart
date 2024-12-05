@@ -1,10 +1,8 @@
 import 'quill_localizations.dart';
 
-// ignore_for_file: type=lint
-
 /// The translations for Nepali (`ne`).
 class FlutterQuillLocalizationsNe extends FlutterQuillLocalizations {
-  FlutterQuillLocalizationsNe([String locale = 'ne']) : super(locale);
+  FlutterQuillLocalizationsNe([super.locale = 'ne']);
 
   @override
   String get pasteLink => 'लिङ्क पेस्ट गर्नुहोस्';
@@ -130,9 +128,6 @@ class FlutterQuillLocalizationsNe extends FlutterQuillLocalizations {
   String get alignRight => 'दायाँ पङ्क्तिबद्ध';
 
   @override
-  String get alignJustify => 'सही संरेखण';
-
-  @override
   String get justifyWinWidth => 'जस्टीफ़ी विन चौड़ाई';
 
   @override
@@ -211,9 +206,6 @@ class FlutterQuillLocalizationsNe extends FlutterQuillLocalizations {
   String get color => 'रङ';
 
   @override
-  String get lineheight => 'रेखा-उचाइ';
-
-  @override
   String get findText => 'टेक्स्ट फेला पार्नुहोस्';
 
   @override
@@ -238,11 +230,11 @@ class FlutterQuillLocalizationsNe extends FlutterQuillLocalizations {
 
   @override
   String get pleaseEnterTextForYourLink =>
-      'कृपया आफ्नो लिङ्कको लागि पाठ प्रविष्ट गर्नुहोस् (जस्तै, \'थप जान्नुहोस्\')';
+      "कृपया आफ्नो लिङ्कको लागि पाठ प्रविष्ट गर्नुहोस् (जस्तै, 'थप जान्नुहोस्')";
 
   @override
   String get pleaseEnterTheLinkURL =>
-      'कृपया लिङ्क URL प्रविष्ट गर्नुहोस् (जस्तै, \'https://example.com\')';
+      "कृपया लिङ्क URL प्रविष्ट गर्नुहोस् (जस्तै, 'https://example.com')";
 
   @override
   String get pleaseEnterAValidImageURL =>
@@ -261,12 +253,6 @@ class FlutterQuillLocalizationsNe extends FlutterQuillLocalizations {
   @override
   String get caseSensitivityAndWholeWordSearch =>
       'केस संवेदनशीलता र सम्पूर्ण शब्द खोज';
-
-  @override
-  String get caseSensitive => 'वर्ण केस संवेदनशील';
-
-  @override
-  String get wholeWord => 'पूरा शब्द';
 
   @override
   String get insertImage => 'छवि सम्मिलित गर्नुहोस्';
@@ -290,22 +276,4 @@ class FlutterQuillLocalizationsNe extends FlutterQuillLocalizations {
 
   @override
   String get pasteAVideoUsingALink => 'लिङ्क प्रयोग गरेर भिडियो टाँस्नुहोस्';
-
-  @override
-  String get close => 'बन्द गर्नुहोस्';
-
-  @override
-  String get searchSettings => 'खोज सेटिङ';
-
-  @override
-  String get cut => 'काट्नुहोस्';
-
-  @override
-  String get paste => 'पेस्ट गर्नुहोस्';
-
-  @override
-  String get insertTable => 'तालिका समावेश गर्नुहोस्';
-
-  @override
-  String get insertVideo => 'Insert video';
 }

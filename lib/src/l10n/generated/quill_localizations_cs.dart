@@ -1,10 +1,8 @@
 import 'quill_localizations.dart';
 
-// ignore_for_file: type=lint
-
 /// The translations for Czech (`cs`).
 class FlutterQuillLocalizationsCs extends FlutterQuillLocalizations {
-  FlutterQuillLocalizationsCs([String locale = 'cs']) : super(locale);
+  FlutterQuillLocalizationsCs([super.locale = 'cs']);
 
   @override
   String get pasteLink => 'Vložit odkaz';
@@ -130,9 +128,6 @@ class FlutterQuillLocalizationsCs extends FlutterQuillLocalizations {
   String get alignRight => 'Zarovnat vpravo';
 
   @override
-  String get alignJustify => 'Zarovnat do bloku';
-
-  @override
   String get justifyWinWidth => 'Zarovnat do bloku';
 
   @override
@@ -211,9 +206,6 @@ class FlutterQuillLocalizationsCs extends FlutterQuillLocalizations {
   String get color => 'Barva';
 
   @override
-  String get lineheight => 'Výška čáry';
-
-  @override
   String get findText => 'Najít text';
 
   @override
@@ -238,11 +230,11 @@ class FlutterQuillLocalizationsCs extends FlutterQuillLocalizations {
 
   @override
   String get pleaseEnterTextForYourLink =>
-      'Zadejte text pro váš odkaz (např., \'Dozvědět se více\')';
+      "Zadejte text pro váš odkaz (např., 'Dozvědět se více')";
 
   @override
   String get pleaseEnterTheLinkURL =>
-      'Zadejte URL odkazu (např., \'https://example.com\')';
+      "Zadejte URL odkazu (např., 'https://example.com')";
 
   @override
   String get pleaseEnterAValidImageURL => 'Zadejte platnou URL adresu obrázku';
@@ -259,12 +251,6 @@ class FlutterQuillLocalizationsCs extends FlutterQuillLocalizations {
   @override
   String get caseSensitivityAndWholeWordSearch =>
       'Citlivost na velká a malá písmena a vyhledávání celého slova';
-
-  @override
-  String get caseSensitive => 'Rozlišovat velikost písmen';
-
-  @override
-  String get wholeWord => 'Celé slovo';
 
   @override
   String get insertImage => 'Vložit obrázek';
@@ -286,22 +272,4 @@ class FlutterQuillLocalizationsCs extends FlutterQuillLocalizations {
 
   @override
   String get pasteAVideoUsingALink => 'Vložit video pomocí odkazu';
-
-  @override
-  String get close => 'Zavřít';
-
-  @override
-  String get searchSettings => 'Nastavení hledání';
-
-  @override
-  String get cut => 'Vyjmout';
-
-  @override
-  String get paste => 'Vložit';
-
-  @override
-  String get insertTable => 'Vložit tabulku';
-
-  @override
-  String get insertVideo => 'Insert video';
 }

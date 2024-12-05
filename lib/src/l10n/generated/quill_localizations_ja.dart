@@ -1,10 +1,8 @@
 import 'quill_localizations.dart';
 
-// ignore_for_file: type=lint
-
 /// The translations for Japanese (`ja`).
 class FlutterQuillLocalizationsJa extends FlutterQuillLocalizations {
-  FlutterQuillLocalizationsJa([String locale = 'ja']) : super(locale);
+  FlutterQuillLocalizationsJa([super.locale = 'ja']);
 
   @override
   String get pasteLink => 'リンクをペースト';
@@ -130,9 +128,6 @@ class FlutterQuillLocalizationsJa extends FlutterQuillLocalizations {
   String get alignRight => '右揃え';
 
   @override
-  String get alignJustify => '両端揃え';
-
-  @override
   String get justifyWinWidth => '両端揃え';
 
   @override
@@ -142,25 +137,25 @@ class FlutterQuillLocalizationsJa extends FlutterQuillLocalizations {
   String get headerStyle => 'タイトルスタイル';
 
   @override
-  String get normal => '通常';
+  String get normal => 'Normal';
 
   @override
-  String get heading1 => '見出し1';
+  String get heading1 => 'Heading 1';
 
   @override
-  String get heading2 => '見出し2';
+  String get heading2 => 'Heading 2';
 
   @override
-  String get heading3 => '見出し3';
+  String get heading3 => 'Heading 3';
 
   @override
-  String get heading4 => '見出し4';
+  String get heading4 => 'Heading 4';
 
   @override
-  String get heading5 => '見出し5';
+  String get heading5 => 'Heading 5';
 
   @override
-  String get heading6 => '見出し6';
+  String get heading6 => 'Heading 6';
 
   @override
   String get numberedList => '順序付きリスト';
@@ -211,9 +206,6 @@ class FlutterQuillLocalizationsJa extends FlutterQuillLocalizations {
   String get color => 'Color';
 
   @override
-  String get lineheight => '行の高さ';
-
-  @override
   String get findText => '検索テキスト';
 
   @override
@@ -230,17 +222,17 @@ class FlutterQuillLocalizationsJa extends FlutterQuillLocalizations {
 
   @override
   String theImageHasBeenSavedAt(String imagePath) {
-    return '画像は次の場所に保存されました: $imagePath';
+    return 'The image has been saved at: $imagePath';
   }
 
   @override
   String get errorWhileSavingImage => '画像の保存中にエラーが発生しました';
 
   @override
-  String get pleaseEnterTextForYourLink => '例: \'Learn more\'';
+  String get pleaseEnterTextForYourLink => "例: 'Learn more'";
 
   @override
-  String get pleaseEnterTheLinkURL => '例: \'https://example.com\'';
+  String get pleaseEnterTheLinkURL => "例: 'https://example.com'";
 
   @override
   String get pleaseEnterAValidImageURL => '有効な画像URLを入力してください';
@@ -258,47 +250,23 @@ class FlutterQuillLocalizationsJa extends FlutterQuillLocalizations {
   String get caseSensitivityAndWholeWordSearch => '大文字と小文字の区別と完全一致検索';
 
   @override
-  String get caseSensitive => '大文字と小文字を区別する';
-
-  @override
-  String get wholeWord => '完全一致';
-
-  @override
   String get insertImage => '画像を挿入';
 
   @override
-  String get pickAPhotoFromYourGallery => 'ギャラリーから写真を選択';
+  String get pickAPhotoFromYourGallery => 'Pick a photo from your gallery';
 
   @override
-  String get takeAPhotoUsingYourCamera => 'カメラで写真を撮る';
+  String get takeAPhotoUsingYourCamera => 'Take a photo using your camera';
 
   @override
-  String get pasteAPhotoUsingALink => 'リンクを使用して写真を貼り付ける';
+  String get pasteAPhotoUsingALink => 'Paste a photo using a link';
 
   @override
-  String get pickAVideoFromYourGallery => 'ギャラリーからビデオを選択';
+  String get pickAVideoFromYourGallery => 'Pick a video from your gallery';
 
   @override
-  String get recordAVideoUsingYourCamera => 'カメラでビデオを録画する';
+  String get recordAVideoUsingYourCamera => 'Record a video using your camera';
 
   @override
-  String get pasteAVideoUsingALink => 'リンクを使用してビデオを貼り付ける';
-
-  @override
-  String get close => '閉じる';
-
-  @override
-  String get searchSettings => '検索設定';
-
-  @override
-  String get cut => '切り取り';
-
-  @override
-  String get paste => '貼り付け';
-
-  @override
-  String get insertTable => 'テーブルを挿入';
-
-  @override
-  String get insertVideo => 'Insert video';
+  String get pasteAVideoUsingALink => 'Paste a video using a link';
 }

@@ -1,10 +1,8 @@
 import 'quill_localizations.dart';
 
-// ignore_for_file: type=lint
-
 /// The translations for Polish (`pl`).
 class FlutterQuillLocalizationsPl extends FlutterQuillLocalizations {
-  FlutterQuillLocalizationsPl([String locale = 'pl']) : super(locale);
+  FlutterQuillLocalizationsPl([super.locale = 'pl']);
 
   @override
   String get pasteLink => 'Wklej link';
@@ -130,10 +128,7 @@ class FlutterQuillLocalizationsPl extends FlutterQuillLocalizations {
   String get alignRight => 'Align right';
 
   @override
-  String get alignJustify => 'Wyjustuj tekst';
-
-  @override
-  String get justifyWinWidth => 'Justify win width';
+  String get justifyWinWidth => 'Justify';
 
   @override
   String get textDirection => 'Text direction';
@@ -142,25 +137,25 @@ class FlutterQuillLocalizationsPl extends FlutterQuillLocalizations {
   String get headerStyle => 'Header style';
 
   @override
-  String get normal => 'Normalny';
+  String get normal => 'Normal';
 
   @override
-  String get heading1 => 'Nagłówek 1';
+  String get heading1 => 'Heading 1';
 
   @override
-  String get heading2 => 'Nagłówek 2';
+  String get heading2 => 'Heading 2';
 
   @override
-  String get heading3 => 'Nagłówek 3';
+  String get heading3 => 'Heading 3';
 
   @override
-  String get heading4 => 'Nagłówek 4';
+  String get heading4 => 'Heading 4';
 
   @override
-  String get heading5 => 'Nagłówek 5';
+  String get heading5 => 'Heading 5';
 
   @override
-  String get heading6 => 'Nagłówek 6';
+  String get heading6 => 'Heading 6';
 
   @override
   String get numberedList => 'Numbered list';
@@ -211,9 +206,6 @@ class FlutterQuillLocalizationsPl extends FlutterQuillLocalizations {
   String get color => 'Kolor';
 
   @override
-  String get lineheight => 'Wysokość linii';
-
-  @override
   String get findText => 'Find text';
 
   @override
@@ -230,17 +222,17 @@ class FlutterQuillLocalizationsPl extends FlutterQuillLocalizations {
 
   @override
   String theImageHasBeenSavedAt(String imagePath) {
-    return 'Obrazek został zapisany w: $imagePath';
+    return 'The image has been saved at: $imagePath';
   }
 
   @override
   String get errorWhileSavingImage => 'Error while saving image';
 
   @override
-  String get pleaseEnterTextForYourLink => 'e.g., \'Learn more\'';
+  String get pleaseEnterTextForYourLink => "e.g., 'Learn more'";
 
   @override
-  String get pleaseEnterTheLinkURL => 'e.g., \'https://example.com\'';
+  String get pleaseEnterTheLinkURL => "e.g., 'https://example.com'";
 
   @override
   String get pleaseEnterAValidImageURL => 'Please enter a valid image URL';
@@ -260,47 +252,23 @@ class FlutterQuillLocalizationsPl extends FlutterQuillLocalizations {
       'Czułość na wielkość liter i wyszukiwanie całego słowa';
 
   @override
-  String get caseSensitive => 'Uwzględniaj wielkość liter';
-
-  @override
-  String get wholeWord => 'Całe słowo';
-
-  @override
   String get insertImage => 'Wstaw obraz';
 
   @override
-  String get pickAPhotoFromYourGallery => 'Wybierz zdjęcie z galerii';
+  String get pickAPhotoFromYourGallery => 'Pick a photo from your gallery';
 
   @override
-  String get takeAPhotoUsingYourCamera => 'Zrób zdjęcie używając aparatu';
+  String get takeAPhotoUsingYourCamera => 'Take a photo using your camera';
 
   @override
-  String get pasteAPhotoUsingALink => 'Wklej zdjęcie używając linku';
+  String get pasteAPhotoUsingALink => 'Paste a photo using a link';
 
   @override
-  String get pickAVideoFromYourGallery => 'Wybierz wideo z galerii';
+  String get pickAVideoFromYourGallery => 'Pick a video from your gallery';
 
   @override
-  String get recordAVideoUsingYourCamera => 'Nagraj wideo używając aparatu';
+  String get recordAVideoUsingYourCamera => 'Record a video using your camera';
 
   @override
-  String get pasteAVideoUsingALink => 'Wklej wideo używając linku';
-
-  @override
-  String get close => 'Zamknij';
-
-  @override
-  String get searchSettings => 'Ustawienia wyszukiwania';
-
-  @override
-  String get cut => 'Wytnij';
-
-  @override
-  String get paste => 'Wklej';
-
-  @override
-  String get insertTable => 'Wstaw tabelę';
-
-  @override
-  String get insertVideo => 'Insert video';
+  String get pasteAVideoUsingALink => 'Paste a video using a link';
 }

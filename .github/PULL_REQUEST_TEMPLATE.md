@@ -1,36 +1,38 @@
-<!-- 
-Briefly describe your changes and summarize in the title.
-Contributor Guide: https://github.com/singerdmx/flutter-quill/blob/master/CONTRIBUTING.md
-Package versioning is automated.
-Add updates to `Unreleased` in `CHANGELOG.md` following [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) format.
--->
-
 ## Description
 
-*Describe what this PR does. If modifying behavior, explain the current and new behavior, along with the motivation.*
+*Replace this paragraph with a description of what this PR is doing. If you're modifying existing behavior, describe the existing behavior, how this PR is changing it, and what motivated the change.*
 
 ## Related Issues
 
-<!--
-Replace this paragraph with a list of issues related to this PR from the [issue database](https://github.com/singerdmx/flutter-quill/issues). Indicate, which of these issues are resolved or fixed by this PR.
+*Replace this paragraph with a list of issues related to this PR from the [issue database](https://github.com/singerdmx/flutter-quill/issues). Indicate, which of these issues are resolved or fixed by this PR.*
+
 *e.g.*
 - *Fix #123*
 - *Related #456*
--->
 
-## Type of Change
+## Improvements
+<!-- Optional -->
 
-<!---
-Check the boxes that apply with x and leave the others empty. For example:
-- [ ] ✨ **New feature:** Adds new functionality without breaking existing features.
-- [x] 🛠️ **Bug fix:** Resolves an issue without changing current behavior.
--->
+## Features
+<!-- Optional -->
 
-- [ ] ✨ **Feature:** New functionality without breaking existing features.
-- [ ] 🛠️ **Bug fix:** Resolves an issue without altering current behavior.
-- [ ] 🧹 **Refactor:** Code reorganization, no behavior change.
-- [ ] ❌ **Breaking:** Alters existing functionality and requires updates.
-- [ ] 🧪 **Tests:** New or modified tests
-- [ ] 📝 **Documentation:** Updates or additions to documentation.
-- [ ] 🗑️ **Chore:** Routine tasks, or maintenance.
-- [ ] ✅ **Build configuration change:** Build/configuration changes.
+## Additional notes
+<!-- Optional -->
+
+## Suggestions
+<!-- Optional -->
+
+## Checklist
+
+- [ ] I read the [Contributor Guide](../CONTRIBUTING.md) and followed the process outlined there for submitting PRs.
+- [ ] I titled the PR using [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0).
+- [ ] I did not modify the `CHANGELOG.md` nor the package version in `pubspec.yaml` files.
+- [ ] All existing and new tests are passing.
+- [ ] I have run the commands in `./scripts/before_push.sh` and it all passed successfully
+
+## Breaking Change
+
+Does your PR require developers to manually update their apps to accommodate your change?
+
+- [ ] Yes, this is a breaking change (please indicate that with a `!` in the title as explained in [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0)).
+- [ ] No, this is *not* a breaking change.

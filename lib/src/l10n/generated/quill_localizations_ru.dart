@@ -1,10 +1,8 @@
 import 'quill_localizations.dart';
 
-// ignore_for_file: type=lint
-
 /// The translations for Russian (`ru`).
 class FlutterQuillLocalizationsRu extends FlutterQuillLocalizations {
-  FlutterQuillLocalizationsRu([String locale = 'ru']) : super(locale);
+  FlutterQuillLocalizationsRu([super.locale = 'ru']);
 
   @override
   String get pasteLink => 'Вставить ссылку';
@@ -130,9 +128,6 @@ class FlutterQuillLocalizationsRu extends FlutterQuillLocalizations {
   String get alignRight => 'Выровнять по правому краю';
 
   @override
-  String get alignJustify => 'Выравнивание по ширине';
-
-  @override
   String get justifyWinWidth => 'Выровнять по ширине окна';
 
   @override
@@ -142,25 +137,25 @@ class FlutterQuillLocalizationsRu extends FlutterQuillLocalizations {
   String get headerStyle => 'Стиль заголовка';
 
   @override
-  String get normal => 'Обычный';
+  String get normal => 'Normal';
 
   @override
-  String get heading1 => 'Заголовок 1';
+  String get heading1 => 'Heading 1';
 
   @override
-  String get heading2 => 'Заголовок 2';
+  String get heading2 => 'Heading 2';
 
   @override
-  String get heading3 => 'Заголовок 3';
+  String get heading3 => 'Heading 3';
 
   @override
-  String get heading4 => 'Заголовок 4';
+  String get heading4 => 'Heading 4';
 
   @override
-  String get heading5 => 'Заголовок 5';
+  String get heading5 => 'Heading 5';
 
   @override
-  String get heading6 => 'Заголовок 6';
+  String get heading6 => 'Heading 6';
 
   @override
   String get numberedList => 'Нумерованный список';
@@ -211,9 +206,6 @@ class FlutterQuillLocalizationsRu extends FlutterQuillLocalizations {
   String get color => 'Цвет';
 
   @override
-  String get lineheight => 'Высота линии';
-
-  @override
   String get findText => 'Найти текст';
 
   @override
@@ -231,17 +223,17 @@ class FlutterQuillLocalizationsRu extends FlutterQuillLocalizations {
 
   @override
   String theImageHasBeenSavedAt(String imagePath) {
-    return 'Изображение сохранено по адресу: $imagePath';
+    return 'The image has been saved at: $imagePath';
   }
 
   @override
   String get errorWhileSavingImage => 'Ошибка при сохранении изображения';
 
   @override
-  String get pleaseEnterTextForYourLink => 'например, \'Узнать больше\'';
+  String get pleaseEnterTextForYourLink => "например, 'Узнать больше'";
 
   @override
-  String get pleaseEnterTheLinkURL => 'например, \'https://example.com\'';
+  String get pleaseEnterTheLinkURL => "например, 'https://example.com'";
 
   @override
   String get pleaseEnterAValidImageURL =>
@@ -260,12 +252,6 @@ class FlutterQuillLocalizationsRu extends FlutterQuillLocalizations {
   @override
   String get caseSensitivityAndWholeWordSearch =>
       'Учет регистра и поиск по всему слову';
-
-  @override
-  String get caseSensitive => 'Чувствителен к регистру';
-
-  @override
-  String get wholeWord => 'Целое слово';
 
   @override
   String get insertImage => 'Вставить изображение';
@@ -288,23 +274,5 @@ class FlutterQuillLocalizationsRu extends FlutterQuillLocalizations {
   String get recordAVideoUsingYourCamera => 'Запишите видео, используя камеру';
 
   @override
-  String get pasteAVideoUsingALink => 'Вставить видео по ссылке';
-
-  @override
-  String get close => 'Закрыть';
-
-  @override
-  String get searchSettings => 'Настройки поиска';
-
-  @override
-  String get cut => 'Вырезать';
-
-  @override
-  String get paste => 'Вставить';
-
-  @override
-  String get insertTable => 'Вставить таблицу';
-
-  @override
-  String get insertVideo => 'Insert video';
+  String get pasteAVideoUsingALink => 'Paste a video using a link';
 }

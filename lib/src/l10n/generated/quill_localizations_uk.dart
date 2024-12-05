@@ -1,10 +1,8 @@
 import 'quill_localizations.dart';
 
-// ignore_for_file: type=lint
-
 /// The translations for Ukrainian (`uk`).
 class FlutterQuillLocalizationsUk extends FlutterQuillLocalizations {
-  FlutterQuillLocalizationsUk([String locale = 'uk']) : super(locale);
+  FlutterQuillLocalizationsUk([super.locale = 'uk']);
 
   @override
   String get pasteLink => 'Вставити посилання';
@@ -130,9 +128,6 @@ class FlutterQuillLocalizationsUk extends FlutterQuillLocalizations {
   String get alignRight => 'Вирівняти праворуч';
 
   @override
-  String get alignJustify => 'Вирівняти по ширині';
-
-  @override
   String get justifyWinWidth => 'Вирівняти за шириною вікна';
 
   @override
@@ -211,9 +206,6 @@ class FlutterQuillLocalizationsUk extends FlutterQuillLocalizations {
   String get color => 'Колір';
 
   @override
-  String get lineheight => 'Висота лінії';
-
-  @override
   String get findText => 'Знайти текст';
 
   @override
@@ -231,17 +223,17 @@ class FlutterQuillLocalizationsUk extends FlutterQuillLocalizations {
 
   @override
   String theImageHasBeenSavedAt(String imagePath) {
-    return 'Зображення збережено за адресою: $imagePath';
+    return 'The image has been saved at: $imagePath';
   }
 
   @override
   String get errorWhileSavingImage => 'Помилка при збереженні зображення';
 
   @override
-  String get pleaseEnterTextForYourLink => 'Наприклад, \'Дізнатися більше\'';
+  String get pleaseEnterTextForYourLink => "Наприклад, 'Дізнатися більше'";
 
   @override
-  String get pleaseEnterTheLinkURL => 'Наприклад, \'https://example.com\'';
+  String get pleaseEnterTheLinkURL => "Наприклад, 'https://example.com'";
 
   @override
   String get pleaseEnterAValidImageURL =>
@@ -260,12 +252,6 @@ class FlutterQuillLocalizationsUk extends FlutterQuillLocalizations {
   @override
   String get caseSensitivityAndWholeWordSearch =>
       'Чутливість до регістру та пошук цілих слів';
-
-  @override
-  String get caseSensitive => 'Чутливість до регістру';
-
-  @override
-  String get wholeWord => 'Слово повністю';
 
   @override
   String get insertImage => 'Вставити зображення';
@@ -290,22 +276,4 @@ class FlutterQuillLocalizationsUk extends FlutterQuillLocalizations {
 
   @override
   String get pasteAVideoUsingALink => 'Вставте відео, використовуючи посилання';
-
-  @override
-  String get close => 'Закрити';
-
-  @override
-  String get searchSettings => 'Налаштування пошуку';
-
-  @override
-  String get cut => 'Вирізати';
-
-  @override
-  String get paste => 'Вставити';
-
-  @override
-  String get insertTable => 'Вставити таблицю';
-
-  @override
-  String get insertVideo => 'Insert video';
 }

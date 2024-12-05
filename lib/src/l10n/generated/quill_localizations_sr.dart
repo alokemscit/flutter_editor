@@ -1,10 +1,8 @@
 import 'quill_localizations.dart';
 
-// ignore_for_file: type=lint
-
 /// The translations for Serbian (`sr`).
 class FlutterQuillLocalizationsSr extends FlutterQuillLocalizations {
-  FlutterQuillLocalizationsSr([String locale = 'sr']) : super(locale);
+  FlutterQuillLocalizationsSr([super.locale = 'sr']);
 
   @override
   String get pasteLink => 'Nalepi vezu';
@@ -130,9 +128,6 @@ class FlutterQuillLocalizationsSr extends FlutterQuillLocalizations {
   String get alignRight => 'Poravnanje desno';
 
   @override
-  String get alignJustify => 'Poravnaj';
-
-  @override
   String get justifyWinWidth => 'Centriraj širinu prozora';
 
   @override
@@ -142,25 +137,25 @@ class FlutterQuillLocalizationsSr extends FlutterQuillLocalizations {
   String get headerStyle => 'Stil zaglavlja';
 
   @override
-  String get normal => 'Normalno';
+  String get normal => 'Normal';
 
   @override
-  String get heading1 => 'Naslov 1';
+  String get heading1 => 'Heading 1';
 
   @override
-  String get heading2 => 'Naslov 2';
+  String get heading2 => 'Heading 2';
 
   @override
-  String get heading3 => 'Naslov 3';
+  String get heading3 => 'Heading 3';
 
   @override
-  String get heading4 => 'Naslov 4';
+  String get heading4 => 'Heading 4';
 
   @override
-  String get heading5 => 'Naslov 5';
+  String get heading5 => 'Heading 5';
 
   @override
-  String get heading6 => 'Naslov 6';
+  String get heading6 => 'Heading 6';
 
   @override
   String get numberedList => 'Numerisana lista';
@@ -211,9 +206,6 @@ class FlutterQuillLocalizationsSr extends FlutterQuillLocalizations {
   String get color => 'Boja';
 
   @override
-  String get lineheight => 'Visina linije';
-
-  @override
   String get findText => 'Nađi tekst';
 
   @override
@@ -231,7 +223,7 @@ class FlutterQuillLocalizationsSr extends FlutterQuillLocalizations {
 
   @override
   String theImageHasBeenSavedAt(String imagePath) {
-    return 'Slika je sačuvana na: $imagePath';
+    return 'The image has been saved at: $imagePath';
   }
 
   @override
@@ -239,11 +231,11 @@ class FlutterQuillLocalizationsSr extends FlutterQuillLocalizations {
 
   @override
   String get pleaseEnterTextForYourLink =>
-      'Unesite tekst za svoj link (na primer, \'Saznajte više\')';
+      "Unesite tekst za svoj link (na primer, 'Saznajte više')";
 
   @override
   String get pleaseEnterTheLinkURL =>
-      'Unesite URL linka (na primer, \'https://example.com\')';
+      "Unesite URL linka (na primer, 'https://example.com')";
 
   @override
   String get pleaseEnterAValidImageURL => 'Unesite važeći URL slike';
@@ -262,48 +254,23 @@ class FlutterQuillLocalizationsSr extends FlutterQuillLocalizations {
       'Osetljivost na velika i mala slova i potraga za celom rečju';
 
   @override
-  String get caseSensitive => 'Razlikovati velika i mala slova';
-
-  @override
-  String get wholeWord => 'Cela reč';
-
-  @override
   String get insertImage => 'Umetni sliku';
 
   @override
-  String get pickAPhotoFromYourGallery => 'Izaberite sliku iz vaše galerije';
+  String get pickAPhotoFromYourGallery => 'Pick a photo from your gallery';
 
   @override
-  String get takeAPhotoUsingYourCamera =>
-      'Napravite fotografiju koristeći vašu kameru';
+  String get takeAPhotoUsingYourCamera => 'Take a photo using your camera';
 
   @override
-  String get pasteAPhotoUsingALink => 'Zalepite sliku koristeći link';
+  String get pasteAPhotoUsingALink => 'Paste a photo using a link';
 
   @override
-  String get pickAVideoFromYourGallery => 'Izaberite video iz vaše galerije';
+  String get pickAVideoFromYourGallery => 'Pick a video from your gallery';
 
   @override
-  String get recordAVideoUsingYourCamera => 'Snimi video koristeći vašu kameru';
+  String get recordAVideoUsingYourCamera => 'Record a video using your camera';
 
   @override
-  String get pasteAVideoUsingALink => 'Zalepite video koristeći link';
-
-  @override
-  String get close => 'Zatvori';
-
-  @override
-  String get searchSettings => 'Podešavanja pretrage';
-
-  @override
-  String get cut => 'Iseci';
-
-  @override
-  String get paste => 'Nalepi';
-
-  @override
-  String get insertTable => 'Ubaci tabelu';
-
-  @override
-  String get insertVideo => 'Insert video';
+  String get pasteAVideoUsingALink => 'Paste a video using a link';
 }

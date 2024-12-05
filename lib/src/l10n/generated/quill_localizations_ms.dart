@@ -1,10 +1,8 @@
 import 'quill_localizations.dart';
 
-// ignore_for_file: type=lint
-
 /// The translations for Malay (`ms`).
 class FlutterQuillLocalizationsMs extends FlutterQuillLocalizations {
-  FlutterQuillLocalizationsMs([String locale = 'ms']) : super(locale);
+  FlutterQuillLocalizationsMs([super.locale = 'ms']);
 
   @override
   String get pasteLink => 'Tampal Pautan';
@@ -130,10 +128,7 @@ class FlutterQuillLocalizationsMs extends FlutterQuillLocalizations {
   String get alignRight => 'Align right';
 
   @override
-  String get alignJustify => 'Rata kiri kanan';
-
-  @override
-  String get justifyWinWidth => 'Justify win width';
+  String get justifyWinWidth => 'Justify';
 
   @override
   String get textDirection => 'Text direction';
@@ -145,22 +140,22 @@ class FlutterQuillLocalizationsMs extends FlutterQuillLocalizations {
   String get normal => 'Normal';
 
   @override
-  String get heading1 => 'Tajuk 1';
+  String get heading1 => 'Heading 1';
 
   @override
-  String get heading2 => 'Tajuk 2';
+  String get heading2 => 'Heading 2';
 
   @override
-  String get heading3 => 'Tajuk 3';
+  String get heading3 => 'Heading 3';
 
   @override
-  String get heading4 => 'Tajuk 4';
+  String get heading4 => 'Heading 4';
 
   @override
-  String get heading5 => 'Tajuk 5';
+  String get heading5 => 'Heading 5';
 
   @override
-  String get heading6 => 'Tajuk 6';
+  String get heading6 => 'Heading 6';
 
   @override
   String get numberedList => 'Numbered list';
@@ -211,9 +206,6 @@ class FlutterQuillLocalizationsMs extends FlutterQuillLocalizations {
   String get color => 'Warna';
 
   @override
-  String get lineheight => 'Ketinggian garisan';
-
-  @override
   String get findText => 'Find text';
 
   @override
@@ -230,7 +222,7 @@ class FlutterQuillLocalizationsMs extends FlutterQuillLocalizations {
 
   @override
   String theImageHasBeenSavedAt(String imagePath) {
-    return 'Imej telah disimpan di: $imagePath';
+    return 'The image has been saved at: $imagePath';
   }
 
   @override
@@ -238,11 +230,11 @@ class FlutterQuillLocalizationsMs extends FlutterQuillLocalizations {
 
   @override
   String get pleaseEnterTextForYourLink =>
-      'Sila masukkan teks untuk pautan anda (contoh, \'Ketahui lebih lanjut\')';
+      "Sila masukkan teks untuk pautan anda (contoh, 'Ketahui lebih lanjut')";
 
   @override
   String get pleaseEnterTheLinkURL =>
-      'Sila masukkan URL pautan (contoh, \'https://example.com\')';
+      "Sila masukkan URL pautan (contoh, 'https://example.com')";
 
   @override
   String get pleaseEnterAValidImageURL => 'Sila masukkan URL imej yang sah';
@@ -261,48 +253,23 @@ class FlutterQuillLocalizationsMs extends FlutterQuillLocalizations {
       'Sensitiviti huruf besar dan kecil dan carian penuh perkataan';
 
   @override
-  String get caseSensitive => 'Sensitif huruf besar-kecil';
-
-  @override
-  String get wholeWord => 'Kata keseluruhan';
-
-  @override
   String get insertImage => 'Masukkan imej';
 
   @override
-  String get pickAPhotoFromYourGallery => 'Pilih foto dari galeri anda';
+  String get pickAPhotoFromYourGallery => 'Pick a photo from your gallery';
 
   @override
-  String get takeAPhotoUsingYourCamera => 'Ambil foto menggunakan kamera anda';
+  String get takeAPhotoUsingYourCamera => 'Take a photo using your camera';
 
   @override
-  String get pasteAPhotoUsingALink => 'Tampal foto menggunakan pautan';
+  String get pasteAPhotoUsingALink => 'Paste a photo using a link';
 
   @override
-  String get pickAVideoFromYourGallery => 'Pilih video dari galeri anda';
+  String get pickAVideoFromYourGallery => 'Pick a video from your gallery';
 
   @override
-  String get recordAVideoUsingYourCamera =>
-      'Rakaman video menggunakan kamera anda';
+  String get recordAVideoUsingYourCamera => 'Record a video using your camera';
 
   @override
-  String get pasteAVideoUsingALink => 'Tampal video menggunakan pautan';
-
-  @override
-  String get close => 'Tutup';
-
-  @override
-  String get searchSettings => 'Tetapan carian';
-
-  @override
-  String get cut => 'Potong';
-
-  @override
-  String get paste => 'Tampal';
-
-  @override
-  String get insertTable => 'Masukkan jadual';
-
-  @override
-  String get insertVideo => 'Insert video';
+  String get pasteAVideoUsingALink => 'Paste a video using a link';
 }

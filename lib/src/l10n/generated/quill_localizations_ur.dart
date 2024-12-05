@@ -1,10 +1,8 @@
 import 'quill_localizations.dart';
 
-// ignore_for_file: type=lint
-
 /// The translations for Urdu (`ur`).
 class FlutterQuillLocalizationsUr extends FlutterQuillLocalizations {
-  FlutterQuillLocalizationsUr([String locale = 'ur']) : super(locale);
+  FlutterQuillLocalizationsUr([super.locale = 'ur']);
 
   @override
   String get pasteLink => 'لنک پیسٹ کریں';
@@ -130,9 +128,6 @@ class FlutterQuillLocalizationsUr extends FlutterQuillLocalizations {
   String get alignRight => 'دائیں ہم آہنگ ہوں';
 
   @override
-  String get alignJustify => 'متن کو جڑائیں';
-
-  @override
   String get justifyWinWidth => 'جسٹیفائی ون چوڑائی';
 
   @override
@@ -142,25 +137,25 @@ class FlutterQuillLocalizationsUr extends FlutterQuillLocalizations {
   String get headerStyle => 'ہیڈر کا انداز';
 
   @override
-  String get normal => 'معمول';
+  String get normal => 'Normal';
 
   @override
-  String get heading1 => 'سرخی 1';
+  String get heading1 => 'Heading 1';
 
   @override
-  String get heading2 => 'سرخی 2';
+  String get heading2 => 'Heading 2';
 
   @override
-  String get heading3 => 'سرخی 3';
+  String get heading3 => 'Heading 3';
 
   @override
-  String get heading4 => 'سرخی 4';
+  String get heading4 => 'Heading 4';
 
   @override
-  String get heading5 => 'سرخی 5';
+  String get heading5 => 'Heading 5';
 
   @override
-  String get heading6 => 'سرخی 6';
+  String get heading6 => 'Heading 6';
 
   @override
   String get numberedList => 'مرقم فہرست';
@@ -211,9 +206,6 @@ class FlutterQuillLocalizationsUr extends FlutterQuillLocalizations {
   String get color => 'رنگ';
 
   @override
-  String get lineheight => 'لکیر کی اونچائی';
-
-  @override
   String get findText => 'متن تلاش کریں';
 
   @override
@@ -231,7 +223,7 @@ class FlutterQuillLocalizationsUr extends FlutterQuillLocalizations {
 
   @override
   String theImageHasBeenSavedAt(String imagePath) {
-    return 'تصویر یہاں محفوظ کی گئی ہے: $imagePath';
+    return 'The image has been saved at: $imagePath';
   }
 
   @override
@@ -239,11 +231,11 @@ class FlutterQuillLocalizationsUr extends FlutterQuillLocalizations {
 
   @override
   String get pleaseEnterTextForYourLink =>
-      'براہ کرم اپنے لنک کے لیے متن درج کریں (مثال کے طور پر، \'مزید جانیں\')';
+      "براہ کرم اپنے لنک کے لیے متن درج کریں (مثال کے طور پر، 'مزید جانیں')";
 
   @override
   String get pleaseEnterTheLinkURL =>
-      'براہ کرم لنک کا URL درج کریں (مثال کے طور پر، \'https://example.com\')';
+      "براہ کرم لنک کا URL درج کریں (مثال کے طور پر، 'https://example.com')";
 
   @override
   String get pleaseEnterAValidImageURL =>
@@ -264,48 +256,23 @@ class FlutterQuillLocalizationsUr extends FlutterQuillLocalizations {
       'معاملے کی حساسیت اور پورے الفاظ کی تلاش';
 
   @override
-  String get caseSensitive => 'بڑی اور چھوٹی حروف کے لئے حساس';
-
-  @override
-  String get wholeWord => 'پورا لفظ';
-
-  @override
   String get insertImage => 'تصویر داخل کریں';
 
   @override
-  String get pickAPhotoFromYourGallery => 'اپنی گیلری سے تصویر منتخب کریں';
+  String get pickAPhotoFromYourGallery => 'Pick a photo from your gallery';
 
   @override
-  String get takeAPhotoUsingYourCamera => 'اپنی کیمرہ استعمال کر کے تصویر لیں';
+  String get takeAPhotoUsingYourCamera => 'Take a photo using your camera';
 
   @override
-  String get pasteAPhotoUsingALink => 'لنک استعمال کر کے تصویر چسپاں کریں';
+  String get pasteAPhotoUsingALink => 'Paste a photo using a link';
 
   @override
-  String get pickAVideoFromYourGallery => 'اپنی گیلری سے ویڈیو منتخب کریں';
+  String get pickAVideoFromYourGallery => 'Pick a video from your gallery';
 
   @override
-  String get recordAVideoUsingYourCamera =>
-      'اپنی کیمرہ استعمال کر کے ویڈیو ریکارڈ کریں';
+  String get recordAVideoUsingYourCamera => 'Record a video using your camera';
 
   @override
-  String get pasteAVideoUsingALink => 'لنک استعمال کر کے ویڈیو چسپاں کریں';
-
-  @override
-  String get close => 'بند کریں';
-
-  @override
-  String get searchSettings => 'تلاش کی ترتیبات';
-
-  @override
-  String get cut => 'کٹائیں';
-
-  @override
-  String get paste => 'چسپاں کریں';
-
-  @override
-  String get insertTable => 'ٹیبل درج کریں';
-
-  @override
-  String get insertVideo => 'Insert video';
+  String get pasteAVideoUsingALink => 'Paste a video using a link';
 }

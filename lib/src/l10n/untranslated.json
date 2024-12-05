@@ -1,177 +1,485 @@
 {
   "ar": [
-    "insertVideo"
+    "theImageHasBeenSavedAt"
   ],
 
   "bg": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pickAPhotoFromYourGallery",
+    "takeAPhotoUsingYourCamera",
+    "pasteAPhotoUsingALink",
+    "pickAVideoFromYourGallery",
+    "recordAVideoUsingYourCamera",
+    "pasteAVideoUsingALink"
   ],
 
   "bn": [
-    "insertVideo"
-  ],
-
-  "ca": [
-    "insertVideo"
-  ],
-
-  "cs": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pickAPhotoFromYourGallery",
+    "takeAPhotoUsingYourCamera",
+    "pasteAPhotoUsingALink",
+    "pickAVideoFromYourGallery",
+    "recordAVideoUsingYourCamera",
+    "pasteAVideoUsingALink"
   ],
 
   "da": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pickAPhotoFromYourGallery",
+    "takeAPhotoUsingYourCamera",
+    "pasteAPhotoUsingALink",
+    "pickAVideoFromYourGallery",
+    "recordAVideoUsingYourCamera",
+    "pasteAVideoUsingALink"
   ],
 
   "de": [
-    "insertVideo"
-  ],
-
-  "el": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pasteAVideoUsingALink"
   ],
 
   "en_US": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pickAPhotoFromYourGallery",
+    "takeAPhotoUsingYourCamera",
+    "pasteAPhotoUsingALink",
+    "pickAVideoFromYourGallery",
+    "recordAVideoUsingYourCamera",
+    "pasteAVideoUsingALink"
   ],
 
   "es": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pasteAVideoUsingALink"
   ],
 
   "fa": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pickAPhotoFromYourGallery",
+    "takeAPhotoUsingYourCamera",
+    "pasteAPhotoUsingALink",
+    "pickAVideoFromYourGallery",
+    "recordAVideoUsingYourCamera",
+    "pasteAVideoUsingALink"
   ],
 
   "fr": [
-    "insertVideo"
+    "theImageHasBeenSavedAt"
   ],
 
   "he": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pickAPhotoFromYourGallery",
+    "takeAPhotoUsingYourCamera",
+    "pasteAPhotoUsingALink",
+    "pickAVideoFromYourGallery",
+    "recordAVideoUsingYourCamera",
+    "pasteAVideoUsingALink"
   ],
 
   "hi": [
-    "insertVideo"
-  ],
-
-  "hu": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pickAPhotoFromYourGallery",
+    "takeAPhotoUsingYourCamera",
+    "pasteAPhotoUsingALink",
+    "pickAVideoFromYourGallery",
+    "recordAVideoUsingYourCamera",
+    "pasteAVideoUsingALink"
   ],
 
   "id": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pickAPhotoFromYourGallery",
+    "takeAPhotoUsingYourCamera",
+    "pasteAPhotoUsingALink",
+    "pickAVideoFromYourGallery",
+    "recordAVideoUsingYourCamera",
+    "pasteAVideoUsingALink"
   ],
 
   "it": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pickAPhotoFromYourGallery",
+    "takeAPhotoUsingYourCamera",
+    "pasteAPhotoUsingALink",
+    "pickAVideoFromYourGallery",
+    "recordAVideoUsingYourCamera",
+    "pasteAVideoUsingALink"
   ],
 
   "ja": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pickAPhotoFromYourGallery",
+    "takeAPhotoUsingYourCamera",
+    "pasteAPhotoUsingALink",
+    "pickAVideoFromYourGallery",
+    "recordAVideoUsingYourCamera",
+    "pasteAVideoUsingALink"
   ],
 
   "ko": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pickAPhotoFromYourGallery",
+    "takeAPhotoUsingYourCamera",
+    "pasteAPhotoUsingALink",
+    "pickAVideoFromYourGallery",
+    "recordAVideoUsingYourCamera",
+    "pasteAVideoUsingALink"
   ],
 
   "ku": [
-    "insertVideo"
+    "theImageHasBeenSavedAt"
   ],
 
   "ku_CKB": [
-    "insertVideo"
+    "theImageHasBeenSavedAt"
   ],
 
   "ms": [
-    "insertVideo"
-  ],
-
-  "ne": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pickAPhotoFromYourGallery",
+    "takeAPhotoUsingYourCamera",
+    "pasteAPhotoUsingALink",
+    "pickAVideoFromYourGallery",
+    "recordAVideoUsingYourCamera",
+    "pasteAVideoUsingALink"
   ],
 
   "nl": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pickAPhotoFromYourGallery",
+    "takeAPhotoUsingYourCamera",
+    "pasteAPhotoUsingALink",
+    "pickAVideoFromYourGallery",
+    "recordAVideoUsingYourCamera",
+    "pasteAVideoUsingALink"
   ],
 
   "no": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pickAPhotoFromYourGallery",
+    "takeAPhotoUsingYourCamera",
+    "pasteAPhotoUsingALink",
+    "pickAVideoFromYourGallery",
+    "recordAVideoUsingYourCamera",
+    "pasteAVideoUsingALink"
   ],
 
   "pl": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pickAPhotoFromYourGallery",
+    "takeAPhotoUsingYourCamera",
+    "pasteAPhotoUsingALink",
+    "pickAVideoFromYourGallery",
+    "recordAVideoUsingYourCamera",
+    "pasteAVideoUsingALink"
   ],
 
   "pt": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pickAPhotoFromYourGallery",
+    "takeAPhotoUsingYourCamera",
+    "pasteAPhotoUsingALink",
+    "pickAVideoFromYourGallery",
+    "recordAVideoUsingYourCamera",
+    "pasteAVideoUsingALink"
   ],
 
   "pt_BR": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pickAPhotoFromYourGallery",
+    "takeAPhotoUsingYourCamera",
+    "pasteAPhotoUsingALink",
+    "pickAVideoFromYourGallery",
+    "recordAVideoUsingYourCamera",
+    "pasteAVideoUsingALink"
   ],
 
   "ro": [
-    "insertVideo"
+    "theImageHasBeenSavedAt"
   ],
 
   "ro_RO": [
-    "insertVideo"
+    "theImageHasBeenSavedAt"
   ],
 
   "ru": [
-    "insertVideo"
-  ],
-
-  "sk": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pasteAVideoUsingALink"
   ],
 
   "sr": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pickAPhotoFromYourGallery",
+    "takeAPhotoUsingYourCamera",
+    "pasteAPhotoUsingALink",
+    "pickAVideoFromYourGallery",
+    "recordAVideoUsingYourCamera",
+    "pasteAVideoUsingALink"
   ],
 
   "sv": [
-    "insertVideo"
+    "theImageHasBeenSavedAt"
   ],
 
   "sw": [
-    "insertVideo"
-  ],
-
-  "th": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pickAPhotoFromYourGallery",
+    "takeAPhotoUsingYourCamera",
+    "pasteAPhotoUsingALink",
+    "pickAVideoFromYourGallery",
+    "recordAVideoUsingYourCamera",
+    "pasteAVideoUsingALink"
   ],
 
   "tk": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pickAPhotoFromYourGallery",
+    "takeAPhotoUsingYourCamera",
+    "pasteAPhotoUsingALink",
+    "pickAVideoFromYourGallery",
+    "recordAVideoUsingYourCamera",
+    "pasteAVideoUsingALink"
   ],
 
   "tr": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pickAPhotoFromYourGallery",
+    "takeAPhotoUsingYourCamera",
+    "pasteAPhotoUsingALink",
+    "pickAVideoFromYourGallery",
+    "recordAVideoUsingYourCamera",
+    "pasteAVideoUsingALink"
   ],
 
   "uk": [
-    "insertVideo"
+    "theImageHasBeenSavedAt"
   ],
 
   "ur": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pickAPhotoFromYourGallery",
+    "takeAPhotoUsingYourCamera",
+    "pasteAPhotoUsingALink",
+    "pickAVideoFromYourGallery",
+    "recordAVideoUsingYourCamera",
+    "pasteAVideoUsingALink"
   ],
 
   "vi": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pickAPhotoFromYourGallery",
+    "takeAPhotoUsingYourCamera",
+    "pasteAPhotoUsingALink",
+    "pickAVideoFromYourGallery",
+    "recordAVideoUsingYourCamera",
+    "pasteAVideoUsingALink"
   ],
 
   "zh": [
-    "insertVideo"
+    "theImageHasBeenSavedAt"
   ],
 
   "zh_CN": [
-    "insertVideo"
+    "theImageHasBeenSavedAt"
   ],
 
   "zh_HK": [
-    "insertVideo"
+    "normal",
+    "heading1",
+    "heading2",
+    "heading3",
+    "heading4",
+    "heading5",
+    "heading6",
+    "theImageHasBeenSavedAt",
+    "pickAPhotoFromYourGallery",
+    "takeAPhotoUsingYourCamera",
+    "pasteAPhotoUsingALink",
+    "pickAVideoFromYourGallery",
+    "recordAVideoUsingYourCamera",
+    "pasteAVideoUsingALink"
   ]
 }

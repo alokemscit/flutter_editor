@@ -1,10 +1,8 @@
 import 'quill_localizations.dart';
 
-// ignore_for_file: type=lint
-
 /// The translations for Bengali Bangla (`bn`).
 class FlutterQuillLocalizationsBn extends FlutterQuillLocalizations {
-  FlutterQuillLocalizationsBn([String locale = 'bn']) : super(locale);
+  FlutterQuillLocalizationsBn([super.locale = 'bn']);
 
   @override
   String get pasteLink => 'লিঙ্ক পেস্ট করুন';
@@ -130,9 +128,6 @@ class FlutterQuillLocalizationsBn extends FlutterQuillLocalizations {
   String get alignRight => 'ডান সারিবদ্ধ';
 
   @override
-  String get alignJustify => 'সর্বোচ্চ জাস্টিফাই';
-
-  @override
   String get justifyWinWidth => 'প্রস্থের সাথে সংযত';
 
   @override
@@ -142,25 +137,25 @@ class FlutterQuillLocalizationsBn extends FlutterQuillLocalizations {
   String get headerStyle => 'হেডার স্টাইল';
 
   @override
-  String get normal => 'সাধারণ';
+  String get normal => 'Normal';
 
   @override
-  String get heading1 => 'শিরোনাম 1';
+  String get heading1 => 'Heading 1';
 
   @override
-  String get heading2 => 'শিরোনাম 2';
+  String get heading2 => 'Heading 2';
 
   @override
-  String get heading3 => 'শিরোনাম 3';
+  String get heading3 => 'Heading 3';
 
   @override
-  String get heading4 => 'শিরোনাম 4';
+  String get heading4 => 'Heading 4';
 
   @override
-  String get heading5 => 'শিরোনাম 5';
+  String get heading5 => 'Heading 5';
 
   @override
-  String get heading6 => 'শিরোনাম 6';
+  String get heading6 => 'Heading 6';
 
   @override
   String get numberedList => 'সংখ্যাযুক্ত তালিকা';
@@ -211,9 +206,6 @@ class FlutterQuillLocalizationsBn extends FlutterQuillLocalizations {
   String get color => 'কালার';
 
   @override
-  String get lineheight => 'লাইনের উচ্চতা';
-
-  @override
   String get findText => 'পাঠ্য খুঁজুন';
 
   @override
@@ -230,7 +222,7 @@ class FlutterQuillLocalizationsBn extends FlutterQuillLocalizations {
 
   @override
   String theImageHasBeenSavedAt(String imagePath) {
-    return 'ছবিটি সংরক্ষিত হয়েছে: $imagePath';
+    return 'The image has been saved at: $imagePath';
   }
 
   @override
@@ -238,11 +230,11 @@ class FlutterQuillLocalizationsBn extends FlutterQuillLocalizations {
 
   @override
   String get pleaseEnterTextForYourLink =>
-      'আপনার লিঙ্কের জন্য একটি টেক্সট লিখুন (উদাঃ \'আরও জানুন\')';
+      "আপনার লিঙ্কের জন্য একটি টেক্সট লিখুন (উদাঃ 'আরও জানুন')";
 
   @override
   String get pleaseEnterTheLinkURL =>
-      'দয়া করে লিঙ্ক URL লিখুন (উদাঃ \'https://example.com\')';
+      "দয়া করে লিঙ্ক URL লিখুন (উদাঃ 'https://example.com')";
 
   @override
   String get pleaseEnterAValidImageURL => 'দয়া করে একটি বৈধ চিত্র URL লিখুন';
@@ -261,53 +253,23 @@ class FlutterQuillLocalizationsBn extends FlutterQuillLocalizations {
       'কেস সেন্সিটিভিটি এবং পূর্ণ শব্দ অনুসন্ধান';
 
   @override
-  String get caseSensitive => 'বড়-ছোট অক্ষর বিভাজন';
-
-  @override
-  String get wholeWord => 'সম্পূর্ণ শব্দ';
-
-  @override
   String get insertImage => 'চিত্র সন্নিবেশ';
 
   @override
-  String get pickAPhotoFromYourGallery =>
-      'আপনার গ্যালারি থেকে একটি ছবি নির্বাচন করুন';
+  String get pickAPhotoFromYourGallery => 'Pick a photo from your gallery';
 
   @override
-  String get takeAPhotoUsingYourCamera =>
-      'আপনার ক্যামেরা ব্যবহার করে একটি ছবি তুলুন';
+  String get takeAPhotoUsingYourCamera => 'Take a photo using your camera';
 
   @override
-  String get pasteAPhotoUsingALink =>
-      'একটি লিঙ্ক ব্যবহার করে একটি ছবি পেস্ট করুন';
+  String get pasteAPhotoUsingALink => 'Paste a photo using a link';
 
   @override
-  String get pickAVideoFromYourGallery =>
-      'আপনার গ্যালারি থেকে একটি ভিডিও নির্বাচন করুন';
+  String get pickAVideoFromYourGallery => 'Pick a video from your gallery';
 
   @override
-  String get recordAVideoUsingYourCamera =>
-      'আপনার ক্যামেরা ব্যবহার করে একটি ভিডিও রেকর্ড করুন';
+  String get recordAVideoUsingYourCamera => 'Record a video using your camera';
 
   @override
-  String get pasteAVideoUsingALink =>
-      'একটি লিঙ্ক ব্যবহার করে একটি ভিডিও পেস্ট করুন';
-
-  @override
-  String get close => 'বন্ধ করুন';
-
-  @override
-  String get searchSettings => 'অনুসন্ধান সেটিংস';
-
-  @override
-  String get cut => 'কাটা';
-
-  @override
-  String get paste => 'পেস্ট';
-
-  @override
-  String get insertTable => 'টেবিল যোগ করুন';
-
-  @override
-  String get insertVideo => 'Insert video';
+  String get pasteAVideoUsingALink => 'Paste a video using a link';
 }

@@ -1,10 +1,8 @@
 import 'quill_localizations.dart';
 
-// ignore_for_file: type=lint
-
 /// The translations for Persian (`fa`).
 class FlutterQuillLocalizationsFa extends FlutterQuillLocalizations {
-  FlutterQuillLocalizationsFa([String locale = 'fa']) : super(locale);
+  FlutterQuillLocalizationsFa([super.locale = 'fa']);
 
   @override
   String get pasteLink => 'جایگذاری لینک';
@@ -130,9 +128,6 @@ class FlutterQuillLocalizationsFa extends FlutterQuillLocalizations {
   String get alignRight => 'چیدمان راست';
 
   @override
-  String get alignJustify => 'تراز کردن متن';
-
-  @override
   String get justifyWinWidth => 'تضمین عرض پنجره';
 
   @override
@@ -142,25 +137,25 @@ class FlutterQuillLocalizationsFa extends FlutterQuillLocalizations {
   String get headerStyle => 'سبک هدر';
 
   @override
-  String get normal => 'معمولی';
+  String get normal => 'Normal';
 
   @override
-  String get heading1 => 'عنوان 1';
+  String get heading1 => 'Heading 1';
 
   @override
-  String get heading2 => 'عنوان 2';
+  String get heading2 => 'Heading 2';
 
   @override
-  String get heading3 => 'عنوان 3';
+  String get heading3 => 'Heading 3';
 
   @override
-  String get heading4 => 'عنوان 4';
+  String get heading4 => 'Heading 4';
 
   @override
-  String get heading5 => 'عنوان 5';
+  String get heading5 => 'Heading 5';
 
   @override
-  String get heading6 => 'عنوان 6';
+  String get heading6 => 'Heading 6';
 
   @override
   String get numberedList => 'لیست شماره‌دار';
@@ -211,9 +206,6 @@ class FlutterQuillLocalizationsFa extends FlutterQuillLocalizations {
   String get color => 'رنگ';
 
   @override
-  String get lineheight => 'ارتفاع خط';
-
-  @override
   String get findText => 'جستجوی متن';
 
   @override
@@ -231,7 +223,7 @@ class FlutterQuillLocalizationsFa extends FlutterQuillLocalizations {
 
   @override
   String theImageHasBeenSavedAt(String imagePath) {
-    return 'تصویر در: $imagePath ذخیره شده است';
+    return 'The image has been saved at: $imagePath';
   }
 
   @override
@@ -239,11 +231,11 @@ class FlutterQuillLocalizationsFa extends FlutterQuillLocalizations {
 
   @override
   String get pleaseEnterTextForYourLink =>
-      'لطفاً متن لینک خود را وارد کنید (مثال: \'بیشتر بدانید\')';
+      "لطفاً متن لینک خود را وارد کنید (مثال: 'بیشتر بدانید')";
 
   @override
   String get pleaseEnterTheLinkURL =>
-      'لطفاً URL لینک را وارد کنید (مثال: \'https://example.com\')';
+      "لطفاً URL لینک را وارد کنید (مثال: 'https://example.com')";
 
   @override
   String get pleaseEnterAValidImageURL => 'لطفاً یک URL تصویر معتبر وارد کنید';
@@ -262,47 +254,23 @@ class FlutterQuillLocalizationsFa extends FlutterQuillLocalizations {
       'حساسیت به کوچکی و بزرگی حروف و جستجوی کلمه کامل';
 
   @override
-  String get caseSensitive => 'حساس به بزرگی و کوچکی حروف';
-
-  @override
-  String get wholeWord => 'کلمه کامل';
-
-  @override
   String get insertImage => 'وارد کردن تصویر';
 
   @override
-  String get pickAPhotoFromYourGallery => 'یک عکس از گالری خود انتخاب کنید';
+  String get pickAPhotoFromYourGallery => 'Pick a photo from your gallery';
 
   @override
-  String get takeAPhotoUsingYourCamera => 'با دوربین خود عکسی بگیرید';
+  String get takeAPhotoUsingYourCamera => 'Take a photo using your camera';
 
   @override
-  String get pasteAPhotoUsingALink => 'عکس را با استفاده از لینک پیست کنید';
+  String get pasteAPhotoUsingALink => 'Paste a photo using a link';
 
   @override
-  String get pickAVideoFromYourGallery => 'یک ویدیو از گالری خود انتخاب کنید';
+  String get pickAVideoFromYourGallery => 'Pick a video from your gallery';
 
   @override
-  String get recordAVideoUsingYourCamera => 'با دوربین خود یک ویدیو ضبط کنید';
+  String get recordAVideoUsingYourCamera => 'Record a video using your camera';
 
   @override
-  String get pasteAVideoUsingALink => 'ویدیو را با استفاده از لینک پیست کنید';
-
-  @override
-  String get close => 'بستن';
-
-  @override
-  String get searchSettings => 'تنظیمات جستجو';
-
-  @override
-  String get cut => 'بریدن';
-
-  @override
-  String get paste => 'چسباندن';
-
-  @override
-  String get insertTable => 'درج جدول';
-
-  @override
-  String get insertVideo => 'Insert video';
+  String get pasteAVideoUsingALink => 'Paste a video using a link';
 }

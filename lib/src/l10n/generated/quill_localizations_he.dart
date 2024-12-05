@@ -1,10 +1,8 @@
 import 'quill_localizations.dart';
 
-// ignore_for_file: type=lint
-
 /// The translations for Hebrew (`he`).
 class FlutterQuillLocalizationsHe extends FlutterQuillLocalizations {
-  FlutterQuillLocalizationsHe([String locale = 'he']) : super(locale);
+  FlutterQuillLocalizationsHe([super.locale = 'he']);
 
   @override
   String get pasteLink => 'הדבק את הלינק';
@@ -130,9 +128,6 @@ class FlutterQuillLocalizationsHe extends FlutterQuillLocalizations {
   String get alignRight => 'יישור לימין';
 
   @override
-  String get alignJustify => 'justify';
-
-  @override
   String get justifyWinWidth => 'יישור לרוחב החלון';
 
   @override
@@ -142,25 +137,25 @@ class FlutterQuillLocalizationsHe extends FlutterQuillLocalizations {
   String get headerStyle => 'סגנון הכותרת';
 
   @override
-  String get normal => 'רגיל';
+  String get normal => 'Normal';
 
   @override
-  String get heading1 => 'כותרת 1';
+  String get heading1 => 'Heading 1';
 
   @override
-  String get heading2 => 'כותרת 2';
+  String get heading2 => 'Heading 2';
 
   @override
-  String get heading3 => 'כותרת 3';
+  String get heading3 => 'Heading 3';
 
   @override
-  String get heading4 => 'כותרת 4';
+  String get heading4 => 'Heading 4';
 
   @override
-  String get heading5 => 'כותרת 5';
+  String get heading5 => 'Heading 5';
 
   @override
-  String get heading6 => 'כותרת 6';
+  String get heading6 => 'Heading 6';
 
   @override
   String get numberedList => 'רשימה ממוספרת';
@@ -211,9 +206,6 @@ class FlutterQuillLocalizationsHe extends FlutterQuillLocalizations {
   String get color => 'צבע';
 
   @override
-  String get lineheight => 'גובה קו';
-
-  @override
   String get findText => 'מצא טקסט';
 
   @override
@@ -230,7 +222,7 @@ class FlutterQuillLocalizationsHe extends FlutterQuillLocalizations {
 
   @override
   String theImageHasBeenSavedAt(String imagePath) {
-    return 'התמונה נשמרה ב: $imagePath';
+    return 'The image has been saved at: $imagePath';
   }
 
   @override
@@ -238,11 +230,11 @@ class FlutterQuillLocalizationsHe extends FlutterQuillLocalizations {
 
   @override
   String get pleaseEnterTextForYourLink =>
-      'אנא הזן טקסט לקישור שלך (לדוגמה, \'מידע נוסף\')';
+      "אנא הזן טקסט לקישור שלך (לדוגמה, 'מידע נוסף')";
 
   @override
   String get pleaseEnterTheLinkURL =>
-      'אנא הזן את כתובת ה-URL של הקישור (לדוגמה, \'https://example.com\')';
+      "אנא הזן את כתובת ה-URL של הקישור (לדוגמה, 'https://example.com')";
 
   @override
   String get pleaseEnterAValidImageURL => 'אנא הזן כתובת URL תקינה של תמונה';
@@ -261,47 +253,23 @@ class FlutterQuillLocalizationsHe extends FlutterQuillLocalizations {
       'רגישות לאותות רישיות וחיפוש לפי מילה שלמה';
 
   @override
-  String get caseSensitive => 'מבחין בין רישיות לקטנות';
-
-  @override
-  String get wholeWord => 'מילה שלמה';
-
-  @override
   String get insertImage => 'הכנס תמונה';
 
   @override
-  String get pickAPhotoFromYourGallery => 'בחר תמונה מהגלריה שלך';
+  String get pickAPhotoFromYourGallery => 'Pick a photo from your gallery';
 
   @override
-  String get takeAPhotoUsingYourCamera => 'צלם תמונה באמצעות המצלמה שלך';
+  String get takeAPhotoUsingYourCamera => 'Take a photo using your camera';
 
   @override
-  String get pasteAPhotoUsingALink => 'הדבק תמונה באמצעות קישור';
+  String get pasteAPhotoUsingALink => 'Paste a photo using a link';
 
   @override
-  String get pickAVideoFromYourGallery => 'בחר סרטון מהגלריה שלך';
+  String get pickAVideoFromYourGallery => 'Pick a video from your gallery';
 
   @override
-  String get recordAVideoUsingYourCamera => 'קלט סרטון באמצעות המצלמה שלך';
+  String get recordAVideoUsingYourCamera => 'Record a video using your camera';
 
   @override
-  String get pasteAVideoUsingALink => 'הדבק סרטון באמצעות קישור';
-
-  @override
-  String get close => 'סגור';
-
-  @override
-  String get searchSettings => 'הגדרות חיפוש';
-
-  @override
-  String get cut => 'גזור';
-
-  @override
-  String get paste => 'הדבק';
-
-  @override
-  String get insertTable => 'הוסף טבלה';
-
-  @override
-  String get insertVideo => 'Insert video';
+  String get pasteAVideoUsingALink => 'Paste a video using a link';
 }
